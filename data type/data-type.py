@@ -10,3 +10,40 @@ x=3
 print(x)
 #print data type of x
 print(type(x))
+
+x=4.6
+print(x)
+print(type(x))
+
+#for list
+x=1j
+print(x)
+print(type(x))
+
+#list,tuple and range are used for sequence type
+
+#for list
+x=['apple',"banana","orange"]
+print(x)
+print(type(x))
+
+#for tuple
+x=("apple","banana","orange")
+print(x)
+print(type(x))
+
+#for range
+x=range(6)
+print(x)
+print(type(x))
+
+#for dict
+#dict is used for mapping type
+x={"name":"jelina", "age":"20"}
+print(x)
+print(type(x))
+
+#for set
+x={"apple","banana","orange"}
+print(x)
+print(type(x))
