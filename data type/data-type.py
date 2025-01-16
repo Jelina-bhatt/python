@@ -47,3 +47,35 @@ print(type(x))
 x={"apple","banana","orange"}
 print(x)
 print(type(x))
+
+#for frozenset
+x=frozenset({"apple","banana","orange"})
+print(x)
+print(type(x))
+#set and frozenset are set data type
+
+#for boolean set
+x=True
+print(x)
+print(type(x))
+
+#for binary types:bytes, bytesarray, memoryview
+#for bytes
+x=b"hello-jelina"
+print(x)
+print(type(x))
+
+#bytesarray
+x=bytearray(5)
+print(x)
+print(type(x))
+
+#for memoryview
+x=memoryview(bytes(5))
+print(x)
+print(type(x))
+
+#for none
+x=None
+print(x)
+print(type(x))
