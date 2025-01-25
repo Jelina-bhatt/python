@@ -1,0 +1,149 @@
+{
+    // Enable running code in terminal
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "explorer.confirmDelete": false,
+    "code-runner.clearPreviousOutput": true,
+
+    // Default formatters for various languages
+    "[html]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    // Font and styling preferences
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Sansita', 'monospace'",
+    "editor.fontWeight": "600",
+    "files.autoSave": "afterDelay",
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80, 120],
+
+    // Workbench UI settings
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+
+    // Sidebar settings
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": -1,
+
+    // Custom typing sound (mechanical keyboard tones)
+    "code-talker.soundPack": "mechanical",
+    "code-talker.typingSpeed": "medium",
+    "code-talker.enable": true,
+
+    // Emoji insertion settings
+    "emojiPicker.trigger": ":",
+    "emojiPicker.showImages": true,
+
+    // Auto-close tags for various languages
+    "auto-close-tag.activationOnLanguage": [
+        "xml", "php", "blade", "ejs", "jinja",
+        "javascript", "javascriptreact", "typescript",
+        "typescriptreact", "plaintext", "markdown",
+        "vue", "liquid", "erb", "lang-cfml", "cfml",
+        "HTML (EEx)", "HTML (Eex)", "plist"
+    ],
+
+    // Custom color customization
+    "editor.tokenColorCustomizations": {
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        },
+        "textMateRules": [
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#2507ac"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#7105a3"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#1e1d22"
+                }
+            }
+        ]
+    },
+
+    // GitLens settings
+    "gitlens.advanced.messages": {
+        "suppressGitDisabledWarning": true,
+        "suppressGitMissingWarning": true
+    },
+
+    // Improve terminal environment
+    "terminal.integrated.env.linux": {},
+
+    // Inlay hints for better readability
+    "editor.inlayHints.fontSize": 10,
+
+    // Customize window title for a professional look
+    "window.title": "${dirty}${activeEditorShort}${separator}${folderPath}${separator}${appName}",
+    "editor.accessibilitySupport": "on",
+    "files.associations": {
+        "*.ejs": "html",
+        ".env*": "dotenv"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+    },
+    "terminal.integrated.fontSize": 14,
+
+    // Enable pinch-to-zoom
+    "window.autoDetectHighContrast": false,
+    "window.zoomLevel": 0,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.zoom": "pinch",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "dotenv.enableAutocloaking": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "json.schemas": [
+        
+    ]
+}
