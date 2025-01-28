@@ -4,8 +4,6 @@ x="hello world"
 print(x)
 #print data type of x
 print(type(x))
-
-
 x=3
 #print x
 print(x)
