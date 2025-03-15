@@ -80,3 +80,9 @@ print(type(x))
 x=None
 print(x)
 print(type(x))
+
+#for type conversion
+j="03.01"
+d=float(j)
+k=type(d)
+print(k)
