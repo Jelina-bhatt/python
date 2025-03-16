@@ -4,8 +4,6 @@ x="hello world"
 print(x)
 #print data type of x
 print(type(x))
-
-
 x=3
 #print x
 print(x)
@@ -80,9 +78,12 @@ print(type(x))
 x=None
 print(x)
 print(type(x))
+<<<<<<< HEAD:variables and data types/data-type.py
 
 #for type conversion
 j="03.01"
 d=float(j)
 k=type(d)
 print(k)
+=======
+>>>>>>> 1916d0a451164cf6bfbb18cfd1a48d095994256a:data type/data-type.py
