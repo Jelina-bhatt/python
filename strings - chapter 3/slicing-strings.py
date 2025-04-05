@@ -5,3 +5,6 @@ print(nameshort1)
 print(nameshort2)
 sl=name[1:6]#stats from 1 and excludes 0
 print(sl)
+
+
+
