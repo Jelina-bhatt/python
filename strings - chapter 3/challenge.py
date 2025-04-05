@@ -1,0 +1,6 @@
+name=input("enter your name")
+print(name)
+print(name.upper())
+print(f"Hello{name}!")
+print(name.strip())
+print(name.replace("","_"))
