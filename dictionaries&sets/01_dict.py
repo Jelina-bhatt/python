@@ -4,3 +4,4 @@ marks={
     list:[1,2,3]
 }
 print(marks,type(marks))
+print(marks["jelina"])
