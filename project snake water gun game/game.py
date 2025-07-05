@@ -1,15 +1,19 @@
+import random
 '''
 1 is for snake
 -1 is for water
 0 is for gun
 '''
 
-computer =-1
+computer = random.choice([-1,0,1])
 youstr = input("enter your choice:")
 youDict = {"s":1, "w":-1, "g":0}
+reverseDict = {1:"snake", -1:"water", 0:"gun"}
 you = youDict[youstr]
 
+#by now we have 2 numbers(variables), you and computer
 
+print(f"you choose {reverseDict[you]}\n computer choose {reverseDict[computer]}")
 
 if(computer == you):
   print("its a draw")

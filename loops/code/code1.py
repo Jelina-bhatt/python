@@ -1,9 +1,10 @@
-for i in range(1,6):
-    print(i)
 
 
+for i in range(1,50):
+    print (i)
 
 i=1
-while(i<6):
-    print(i)
+while(i<100):
+    print (i)
     i+=1
+
