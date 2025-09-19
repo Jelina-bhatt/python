@@ -1,1 +1,1 @@
-print(f_to_c(f))
+print(f"the natural sum is {natural_sum(n)}")
