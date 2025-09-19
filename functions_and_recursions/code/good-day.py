@@ -1,7 +1,8 @@
 def goodDay(name, ending):
     print("good morning," +name)
     print(ending)
+    return "done"
 
-
-goodDay("jelina", "shree krishn bless you")
+a=goodDay("jelina", "shree krishn bless you")
+print (a)
 goodDay("jelina", "have a great day")
