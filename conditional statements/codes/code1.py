@@ -18,3 +18,5 @@ else:
 
 
 print("end of the program")
+
+print("have a great day")
