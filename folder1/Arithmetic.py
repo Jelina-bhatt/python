@@ -11,3 +11,5 @@ print("Exponentiation:", a ** b)
 
 print(not(True))
 print(not(False))
+print(not(False))
+print(not(False))
